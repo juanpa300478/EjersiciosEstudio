@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+.contenedor{
+    background-color: white;
+    width: 30%;
+    margin: 5em auto;
+    height: 25em;
+    border-radius: 0.3em;
+    padding: 1em;
+    text-align: center;
+}
+.vector,.respuesta{
+    width: 50%;
+    margin: auto;
+    height:5em;
+    border: solid 1px black;
+}
+.respuesta{
+    height: 3em;
+}

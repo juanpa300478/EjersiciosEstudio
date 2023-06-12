@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estadistica edades</title>
+    <link rel="stylesheet" href="encuestaEdad/style.css">
+</head>
+<body>
+    
+    <!--form que contendra los imput para gaurdar la información de los participantes-->
+    <div class="contenedor-form">
+    <h2> Datos del encuestado </h2>
+    <form id="datos" class="contenedor-form">
+        <label for="nombre">nombre</label>
+        <br/>
+        <input name="nombre" type="text" />
+        <br/>
+        <label for="edad" >edad</label> 
+        <br/>
+        <input name="edad" type="number" />
+        <br/><br/>
+        <input type="button" value="guardar" /> 
+    </form>
+<section class="section">
+    <h2>REPORTE DE ENCUESTA.</h2>
+    <div class="texto-reporte">
+    <p id="texto-tabla">La muestra tiene un tamaño de <span>numero</span> persona, para conocer sus edades.</p>
+    </div>       
+    <table id="table" class="encuestados" border="1">
+        <tr>
+            <th>nombre</th>
+            <th>edad</th>
+        </tr>
+    </table>
+    <div class="texto-reporte">
+        <p id="texto-grafico">En el siguiente grafico establecimos 3 rangos los cuales van de 1 
+            a 17 años en los cuales la cantidad 
+            de encuestados es de <span>numero</span>. de
+            18 a 59 años en los cuales la cantidad de encuestados es de <span>numero</span>, 
+            y para el rango  de 60 a  120 años en los cuales la cantidad de encuestados es de 
+            <span>numero</span>.
+        </p>
+    </div>
+    <div class="grafico-edades">
+        
+        <div class="contenedor-columnas">
+            <div class="columnas-1"></div>
+            <div class="columnas-2"></div>
+            <div class="columnas-3"></div>
+        </div>
+        <ul class="edades">
+            <li class="edades-item">-18</li>
+            <li class="edades-item">+18</li>
+            <li class="edades-item">+60</li>
+        </ul>
+    </div>
+    <div class="texto-reporte">
+        <p id="texto-resumen">Con respecto a la muesta encontramos los siguientes resultados;
+            La edad mas baja tiene un valor de <span>numero</span> años, la edad más alta tiene un valor de 
+            <span>numero</span> años, y la edad promedio es de <span>numero</span> años.   
+
+        </p>
+        </div> 
+</section>
+</body>
+<script type="module" src="scrips/estadistica.js"></script>
+</body>
+</html>

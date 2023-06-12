@@ -1,0 +1,68 @@
+ul{
+    padding: 0%;
+}
+.section{
+    text-align: center;
+    width: 70%;
+    border: solid 1px black;
+    position: absolute;
+    top: 3em;
+    right: 8%;
+}
+.contenedor-form{
+    padding: 0.5em;
+    width: 30%;
+    height: auto;
+}
+.encuestados{
+    margin: 3em auto;
+}
+.grafico-edades{
+    position: relative;
+    margin: 3em auto;
+    width: 50%;
+    border-left: solid 1px black;
+    border-bottom: solid 1px black;
+}
+.contenedor-columnas{
+    border: solid 1px black;
+    width: 70%;
+    margin: auto;
+    height: 16em;
+    position: relative;
+}
+.columnas-1,.columnas-2,.columnas-3{
+    background-color: blue;
+    width: 5%;
+    height: 0%;
+    bottom: 0%;
+    position: absolute;
+    color: white;
+    text-align: center;
+}
+.columnas-1{
+    left: 20%;
+}
+.columnas-2{
+    left: 50%;
+}
+.columnas-3{
+    left: 80%;
+}
+.edades{
+    text-align: left;
+    width: 30em;
+    margin-left: 4em;
+    position: relative;
+    list-style-type: none;
+    
+}
+.edades-item{
+    display: inline;
+    margin-left: 4.5em;
+}
+.texto-reporte{
+    width: 70%;
+    margin: auto;
+    text-align: left;
+}

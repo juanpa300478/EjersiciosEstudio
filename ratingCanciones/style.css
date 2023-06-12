@@ -1,0 +1,98 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(104, 104, 90);
+}
+.contenedor_menu{
+    background-color: orange;
+    color: white;
+    position: relative;
+    height: 5em;
+}
+.titulo{
+    position: absolute;
+    top: 0.4em;
+    left: 40%;
+}
+.contenedor_ul{
+    
+    width: 15%;
+    position: absolute;
+    left: 4em;
+    
+}
+.contenedor_li{
+    padding-inline-start: 0;
+}
+.contenedor_menu-item{
+    list-style-type: none ;
+    margin-top: 0.9em;
+    margin-bottom: 0.9em;
+}
+.menu-item,.menu-item-1{
+    text-decoration: none;
+    padding: 0.2em 0.2em 0.2em 0.2em;
+    color: white;
+}
+/*estilos del form*/
+.contenedor-form{
+    height: 33.5em;
+}
+.form{
+    background-color: white;
+    width: 40em;
+    height: 25em;
+    position: absolute;
+    left: 25%;
+    top: 9em;
+    box-shadow: 10px 10px 15px black;
+}
+.contenedor-input-1,.contenedor-input-2{
+    width: 15em;
+    height: 18em;
+    position: absolute;
+    padding-left: 2em;
+    padding-top: 1.2em;
+    top: 3em;
+}
+.contenedor-input-1{
+    left: 4em;
+    
+}
+.contenedor-input-2{
+    right: 4em;
+    
+}
+.boton{
+    position: absolute;
+    bottom: 9%;
+    left: 46.5%;
+}
+/*estilos del select*/
+.contenedor-form-select{
+    width: 43%;
+    margin: 3em auto;
+    height: 1.5em;
+    position: relative;
+    font-size: 1.4em;
+}
+.select{
+    width: 40em;
+    height: 2.4em;
+}
+.boton-select{
+    position: absolute;
+    right: 0;
+    height: 2.4em;
+    
+}
+/*contenedor respuesta*/
+.contenedor-respuesta{
+    background-color: white;
+    width: 50%;
+    padding: 0.3em 0.3em 0.3em 0.3em;
+    margin: auto;
+    
+}
